@@ -11,6 +11,7 @@ namespace Engine
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+<<<<<<< HEAD
         public Item ItemRequiredToEnter { get; set; }
         public Quest QuestAvailableHere { get; set; }
         public Monster MonsterLivingHere { get; set; }
@@ -21,13 +22,20 @@ namespace Engine
 
         public Location (int id, string name, string description, Item itemRequiredToEnter = null,
             Quest questAvailableHere = null, Monster monsterLivingHere = null)
+=======
+
+        public Location (int id, string name, string description)
+>>>>>>> 53e8f127dde3ae4807a00c4a6e8d08ec7b674106
         {   
             ID = id;
             Name = name;
             Description = description;
+<<<<<<< HEAD
             ItemRequiredToEnter = itemRequiredToEnter;
             QuestAvailableHere = questAvailableHere;
             MonsterLivingHere = monsterLivingHere;
+=======
+>>>>>>> 53e8f127dde3ae4807a00c4a6e8d08ec7b674106
         }
     }
 }
