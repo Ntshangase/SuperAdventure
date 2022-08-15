@@ -31,6 +31,11 @@ namespace SuperAdventure
             IbILevel.Text = _player.Level.ToString();
         }
 
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnNorth_Click(object sender, EventArgs e)
         {
             MoveTo(_player.CurrentLocation.LocationToNorth);

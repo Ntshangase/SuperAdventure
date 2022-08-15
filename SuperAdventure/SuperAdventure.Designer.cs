@@ -279,7 +279,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
-            this.Load += new System.EventHandler(this.SuperAdventure);
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
             this.ResumeLayout(false);
@@ -312,4 +312,3 @@
         private System.Windows.Forms.DataGridView dgvQuests;
     }
 }
-
