@@ -31,11 +31,6 @@ namespace SuperAdventure
             IbILevel.Text = _player.Level.ToString();
         }
 
-        private void SuperAdventure_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnNorth_Click(object sender, EventArgs e)
         {
             MoveTo(_player.CurrentLocation.LocationToNorth);
@@ -459,6 +454,10 @@ namespace SuperAdventure
             IbIHitPoints.Text = _player.CurrentHitPoints.ToString();
             UpdateInventoryListInUI();
             UpdatePotionListInUI();
+        }
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
