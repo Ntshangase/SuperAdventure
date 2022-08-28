@@ -459,5 +459,8 @@ namespace SuperAdventure
         {
 
         }
+        private void btnTrade_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
